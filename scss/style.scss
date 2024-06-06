@@ -1,0 +1,16 @@
+@use "./layout";
+@use "./components";
+@use "./pages/home";
+@use "./pages/shop";
+
+body {
+  font-family: "Poppins";
+}
+
+.thame__body {
+  padding: 0px 50px;
+}
+
+#page {
+  padding: 0px 50px;
+}

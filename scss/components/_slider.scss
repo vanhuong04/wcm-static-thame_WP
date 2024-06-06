@@ -1,0 +1,133 @@
+.slider {
+  &__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 90% */
+    letter-spacing: -1px;
+    z-index: 5;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    display: flex;
+    align-content: center;
+    gap: 19px;
+  }
+
+  &__img1 {
+    position: relative;
+    width: 347.958px;
+    height: 366px;
+    flex-shrink: 0;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    padding: 50px 40px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 0;
+      height: 366px;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      object-fit: cover;
+    }
+  }
+
+  //   &__img1:hover
+
+  &__img2 {
+    position: relative;
+    width: 725px;
+    height: 366px;
+    flex-shrink: 0;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    padding: 50px 40px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      height: 366px;
+      top: 0;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      width: 725px;
+      object-fit: cover;
+    }
+  }
+
+  &__name {
+    /* Title/16PX Regular */
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    z-index: 5;
+  }
+
+  &__even {
+    color: var(--Text, #fafafa);
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    letter-spacing: 0.96px;
+    max-width: 330px;
+    text-wrap: wrap;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    z-index: 5;
+  }
+
+  &__content {
+    position: absolute;
+    z-index: 6;
+  }
+
+  &__button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+    z-index: 5;
+
+    // margin-top: 90px;
+    // margin-bottom: 20px !important;
+    div {
+      color: #0c8ce9;
+      /* Title/16PX Medium */
+      font-family: "Poppins";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 150% */
+      text-decoration: none;
+    }
+
+    i {
+      color: #0c8ce9;
+      /* Title/16PX Medium */
+      font-family: "Poppins";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 150% */
+    }
+  }
+}
+
+.banner__main {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  gap: 50px;
+}

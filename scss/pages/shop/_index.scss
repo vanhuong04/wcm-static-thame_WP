@@ -1,0 +1,33 @@
+@use "../../utilities/variables" as ut;
+.orderby {
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.wc-block-components-totals-coupon {
+  padding: 16px 48px;
+  a {
+    text-decoration: none;
+    /* Title/16PX Medium */
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+}
+
+.wc-block-cart__submit-container {
+  a {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: ut.$ecean-color;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+  }
+}

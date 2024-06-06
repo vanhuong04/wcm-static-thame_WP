@@ -1,0 +1,45 @@
+@use "../utilities/variables" as ut;
+.add_to_cart_button {
+  display: none;
+}
+body {
+  // background-color: red;
+}
+.products {
+  li {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    // background-color: #f2f2f2;
+    height: 389px;
+  }
+}
+
+.woocommerce ul.products li.product .onsale {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  border-radius: 100% 0% 64% 36% / 0% 100% 0% 100%;
+  color: var(--Text, #fafafa);
+
+  /* Title/12PX Regular */
+  font-family: "Poppins";
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  background-color: ut.$ecean-color;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+  padding-left: 10px;
+}
+
+.woocommerce ul.products li.product .price {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
